@@ -1,0 +1,17 @@
+[package]
+name = "janitor-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.8", features = ["derive"] }
+parse_duration = "2.1.1"
+tokio = { version = "1.38.0", features = ["full"] }
+axum = { version = "0.7.5", features = ["macros"]  }
+safetensors = "0.4.4"
+itertools = "0.13.0"
+tch = { version = "0.17.0", features = ["download-libtorch"] }
+lazy_static = "1.5.0"
+spinoff = "0.8.0"
+serde = "1.0.204"

@@ -1,0 +1,10 @@
+name: ast
+channels:
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pip:
+      - wget
+      - timm==0.4.5
+      - torch

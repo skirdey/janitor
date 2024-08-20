@@ -1,0 +1,3 @@
+[submodule "sys/knf"]
+	path = sys/knf
+	url = https://github.com/csukuangfj/kaldi-native-fbank
